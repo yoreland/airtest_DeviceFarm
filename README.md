@@ -18,7 +18,7 @@
 ![img_3.png](img_3.png)
 4. Go through the rest of steps, and that's all of it!
 
-## Advance configuration (Optional)
+## Advanced configuration (Optional)
 ### customize execution
 Check template/test.yaml file for test/command section. the current trigger of test is simply `- python airtest.py`.
 You could start customize here for test execution.
