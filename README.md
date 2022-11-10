@@ -1,7 +1,7 @@
-# Sample Project for Airtest on AWS DeviceFarm(ADF)
+# Airtest on AWS DeviceFarm(ADF)
 
 ## Project Structure
-1. Template: for ADF test project template
+1. Template: for ADF test project yaml template
 2. test_package: for generate ADF test package
 
 ## How to Run
@@ -16,12 +16,11 @@
 
 > During Configure Step, select "Appium Python" as test framework, select "run your test in custom environment", edit yaml and copy paste the content from template/test.yaml
 ![img_3.png](img_3.png)
-4. Go through the rest of step, and start the run of project.
+4. Go through the rest of steps, and that's all of it!
 
 ## Advance configuration (Optional)
 ### customize execution
-Check template/test.yaml file.
-The Key steps is under test/command section. the current trigger of test is simply `- python airtest.py`
+Check template/test.yaml file for test/command section. the current trigger of test is simply `- python airtest.py`.
 You could start customize here for test execution.
 
 ### import more python dependency
