@@ -63,6 +63,7 @@ phases:
       - echo "Navigate to test package directory"
       - dir=`python -c "import sys; print(sys.path[-1])"`/airtest/core/android/static/adb/linux
       - cd $DEVICEFARM_TEST_PACKAGE_PATH
+      - mkdir -p $dir
       - cp adb $dir/adb
       - chmod +x $dir/adb
       - echo "Start AirTest test"
